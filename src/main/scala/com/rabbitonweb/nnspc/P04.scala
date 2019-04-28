@@ -11,5 +11,9 @@ class P04[T] {
       case head :: tail => sum(acc + 1, tail)
     }
     sum(0, list)
+
+
+
+
   }
 }

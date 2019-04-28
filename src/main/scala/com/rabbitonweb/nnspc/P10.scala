@@ -15,6 +15,12 @@ class P10[T] {
   def encode(list: List[T]) = {
     new P09().pack(list).map {
       case elemList: List[T] => (elemList.size, elemList(0))
+
+
+
+
+
+
     }
   }
 

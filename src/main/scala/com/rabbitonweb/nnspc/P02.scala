@@ -10,5 +10,11 @@ class P02[T] {
     case head :: Nil => None
     case lastButOne :: last :: Nil => Some(lastButOne)
     case head :: tail => penultimate(tail)
+
+
+
+
+
+      
   }
 }
